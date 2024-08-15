@@ -1,0 +1,8 @@
+header
+{% if not current_user.is_authenticated %}
+{% endif %}
+
+index
+
+ {% if current_user.id == 1 %}
+ {% endif %}
